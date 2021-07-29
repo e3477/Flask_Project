@@ -255,7 +255,7 @@ def planetsresults():
         return "Not correct"
 
 
-st = random.randint(0, 18)
+st = random.randint(0, 17)
 randomletter = stalphabet[st]
 @app.route('/USStates', methods=['GET', 'POST'])
 def US_States():
